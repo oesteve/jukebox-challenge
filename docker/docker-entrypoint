@@ -1,0 +1,11 @@
+#!/bin/sh
+set -e
+
+/app/bin/console cache:clear
+/app/bin/console doctrine:migration:migrate --no-interaction
+
+if [ $# -eq 0 ]; then
+  php /app/bin/console jukebox
+else
+  php /app/bin/console "$@"
+fi
