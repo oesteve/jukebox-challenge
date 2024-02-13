@@ -64,7 +64,7 @@ can be found in the `/migrations` directory. To create the database and tables, 
 
 ### Running the app
 
-If tou arrive here, you have all the dependencies installed and the database created. Now you can run the app using the
+If you arrive here, you have all the dependencies installed and the database created. Now you can run the app using the
 next command.
 
 ```bash
